@@ -12,6 +12,9 @@ namespace helloworld
         {
             Console.WriteLine("HELLO WORLD");
             Console.ReadLine();
+            Calculator c = new Calculator();
+            c.AdditiontwoNumbers();
+            Console.ReadLine();
         }
 
     }
